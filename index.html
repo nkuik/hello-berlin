@@ -6,34 +6,70 @@
       <meta content='width=device-width, initial-scale=1' name='viewport'>
     </meta>
     <title>We'd make a great team</title>
-    <link rel="icon"
-      type="image/jpg"
-      href="images/nathan.jpg">
+    <link rel="icon" type="image/jpg" href="images/nathan.jpg">
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
   </head>
   <body>
+    <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '95100348886',
+          xfbml      : true,
+          version    : 'v2.6'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <div class="fb-page"
+         data-href="https://www.facebook.com/nathankuikdeveloper/"
+         data-tabs="messages"
+         data-width="400"
+         data-height="400"
+         data-small-header="true"
+         data-hide-cover="false">
+      <div class="fb-xfbml-parse-ignore">
+        <blockquote>
+          <a href="https://m.me/nathankuikdeveloper/">Message Us</a>
+        </blockquote>
+      </div>
+    </div>
+
+    <button href= "https://m.me/nathankuikdeveloper" class="mdl-button mdl-js-button mdl-button--fab floating-button">
+      <i class="material-icons">chat_bubble</i>
+    </button>
+
     <div class="box text-center">
-      <h1 class="welcome">Hello, Basecamp 👋</h1>
+      <h1 class="welcome">hello, trouble</h1>
     </div>
 
     <div class="box text-center">
-      <h2 class="description-detail">My name is Nathan Kuik</h2>
-      <h3 class="description-detail">and you should hire me as a programming intern</h3>
+      <h2 class="description-detail">my name is nathan kuik</h2>
+      <h3 class="description-detail">and you should hire me as a creative developer</h3>
     </div>
 
     <div class="box text-center">
-      <h2 class="question">Why should you hire me?</h2>
+      <h2 class="question">why?</h2>
     </div>
 
     <div class="box text-center">
-      <h2 class="question">Because I work damn hard and get things done.</h2>
+      <h2 class="question">well...</h2>
     </div>
 
     <div class="box text-center">
-      <h2 class="question">But I know that's not enough, so here's more about me:</h2>
+      <h2 class="question">let me tell you a little about where i've been</h2>
+      <h3 class="description-detail">and where i'd like to go (hint: it's trouble)</h3>
     </div>
 
-    <h2 class="text-center path">My Path</h2>
+    <h2 class="text-center path">my path</h2>
     <h4 class="text-center path">(so far)</h4>
 
     <div class="container">
@@ -81,7 +117,7 @@
 
               <div class="cd-timeline-content">
                 <h3>Promoted to Interim Clinical Coordinator</h3>
-                <p>Took over duties related to managing the youth department's operations and staff.</p>
+                <p>Took over duties related to managing the youth department's operations and staff. Worked on starting a program to work specifically with LGBTQ youth before moving to Denmark.</p>
                 <div class="mdl-card__actions mdl-card--border">
                 </div>
                 <span class="cd-date">June 2015</span>
@@ -97,8 +133,8 @@
                 <h3>Moved to Copenhagen, Denmark</h3>
                 <p>My partner took a position at a Copenhagen startup, so we decided to sell our things, pack the rest, and move to Copenhagen. I love it here.</p>
                 <div class="mdl-card__actions mdl-card--border">
-                  <a href="https://www.buzzfeed.com/ashleyperez/14-reasons-everyone-needs-to-move-to-denmark-immediately?utm_term=.nprYlee3Y#.pjeXz11BX" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                    Denmark rocks
+                  <a href="http://www.demos.org/blog/10/20/15/united-states-vs-denmark-17-charts" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Why I like Denmark more
                   </a>
                 </div>
                 <span class="cd-date">September 2015</span>
@@ -162,7 +198,7 @@
               </div> <!-- cd-timeline-img -->
 
               <div class="cd-timeline-content">
-                <h3>Junior developer at Danish startup Klinikker</h3>
+                <h3>developer at Danish startup Klinikker</h3>
                 <p>One of the teachers at Le Wagon was starting a complete rewrite for the company's web app, and he recruited me to work on his team.</p>
                 <div class="mdl-card__actions mdl-card--border">
                   <a href="https://www.klinikker.dk/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
@@ -175,12 +211,12 @@
 
             <div class="cd-timeline-block">
               <div class="cd-timeline-img cd-white">
-                <img src="images/basecamp.png" alt="Basecamp logo">
+                <img src="images/trouble.jpg" alt="trouble co">
               </div> <!-- cd-timeline-img -->
 
               <div class="cd-timeline-content">
-                <h3>Programming Intern at Basecamp (?!)</h3>
-                <p>My contract with Klinikker ends in May, so this is perfect timing for the start of Basecamp's internships!</p>
+                <h3>Creative Developer at trouble co (?!)</h3>
+                <p>I'm looking for new ways to be challenged and grow, and I think design thinking is the way forward.</p>
                 <div class="mdl-card__actions mdl-card--border">
                 </div>
                 <span class="cd-date">May 2017</span>
@@ -193,7 +229,7 @@
 
     <div class="container smaller-box">
       <div class="col-sm-6 col-sm-offset-3 description-detail text-center">
-        <h2>My Work</h2>
+        <h2>projects</h2>
       </div>
     </div>
 
@@ -299,9 +335,9 @@
       </div>
     </div>
 
-    <div class="col-sm-6 col-sm-offset-3 project text-center small-box">
+    <div class="col-sm-6 col-sm-offset-3 project text-center smaller-box top-margin">
       <div class="text-center">
-        <h2 class="question">Why me + Basecamp = ❤️?</h2>
+        <h2 class="question">why me + trouble = ❤️?</h2>
       </div>
     </div>
 
@@ -310,23 +346,22 @@
         <div class="text-center">
           <h6 class="description-detail">I love to do good shit. I'm new to programming, but
           I bring a never-ending curiosity to it and I've learned a lot already.</h6>
-          <h6 class="description-detail">I still have a ton to learn, and the things I could absorb from the people at
-          Basecamp would fit perfectly with my quest to improve my abilities. Basecamp
-          values practicality and effectiveness--all in the face of an industry that loves loving itself
-          and bragging about how much they do without doing much.</h6>
-          <h6 class="description-detail">It's this kind of company and culture that I want to be a part of. I want to be challenged, but not
-          in the sadistic, unnecessary way that many other startups wear like a badge of honor.
-          Basecamp has proven that a company can treat its employees well AND thrive, and I'd like to contribute.</h6>
+          <h6 class="description-detail">The truth: no one actually knows what they're doing. The future is
+          not predictable and control is only an illusion. With this realization we can create meaningful things,
+          whatever they might be.</h6>
+          <h6 class="description-detail">I do well working in ambiguous situations, which is all
+          situations if we're honest. It is still possible to move forward in the ambiguity, and I would like
+          to do this as a trouble team member.</h6>
         </div>
       </div>
     </div>
 
     <div class="description-detail text-center smaller-box project top-margin">
-      <h2>Haven't had enough?</h2>
+      <h2>haven't had enough?</h2>
     </div>
 
     <div class="col-sm-6 col-sm-offset-3 smaller-box text-center">
-      <h4>Check out all the profiles:</h4>
+      <h4>check out my profiles:</h4>
       <ul class="list-inline icons">
         <li>
           <a href="https://dk.linkedin.com/in/nathankuik" target="_blank" class="padding icon fa fa-linkedin fa-3x" aria-hidden="true"></a>
@@ -340,19 +375,26 @@
       </ul>
     </div>
 
-    <div class="col-sm-6 col-sm-offset-3 project smaller-box text-center">
+    <div class="col-sm-6 col-sm-offset-3 project smaller-box text-center top-margin">
       <div class="text-center">
-        <h2 class="question">Or contact me:</h2>
+        <h2 class="question">get in touch:</h2>
       </div>
     </div>
 
     <div class="col-sm-4 col-sm-offset-4 bottom-margin small-top-margin">
       <div class="contact-box icons">
-        <h4>+45 71 25 34 00</h4>
+        <a href="https://m.me/nathankuikdeveloper" target="_blank">
+          <span class="mdl-chip mdl-chip--contact">
+            <img class="mdl-chip__contact" src="images/nathan.jpg"></img>
+            <span class="mdl-chip__text">Message Me</span>
+          </span>
+        </a>
         <a href="mailto:nathan@nathankuik.com" class="icon fa fa-envelope fa" aria-hidden="true"></a>
       </div>
+      <div class="contact-box icons small-top-margin">
+        <h4>+45 71 25 34 00</h4>
+      </div>
     </div>
-
 
     <div class="col-sm-6 col-sm-offset-3 project text-center small-box project top-margin">
       <h2>Thanks for your time! 😄</h2>
@@ -368,15 +410,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="javascript.js" type="text/javascript"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-91447452-1', 'auto');
-      ga('send', 'pageview');
-
-    </script>
   </body>
 </html>
