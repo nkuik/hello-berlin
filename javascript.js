@@ -7,3 +7,9 @@ sr.reveal('#cd-timeline', { duration: 100, viewFactor: 0.13 });
 sr.reveal('.cd-timeline-block', { duration: 100, viewFactor: 0.5 });
 sr.reveal('.project', { duration: 200 });
 sr.reveal('.icons', { duration: 500}, 100);
+
+
+var popup = document.getElementById('popup');
+document.getElementById('chat-button').onclick = function() {
+  popup.classList.toggle('active');
+}
