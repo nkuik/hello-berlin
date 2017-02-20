@@ -120,8 +120,8 @@ h1 {
   margin: 0 auto;
 }
 
-#popup {
-  display: hidden;
+.hidden {
+  display: none;
 }
 
 .center-image {
