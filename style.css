@@ -125,12 +125,14 @@ h1 {
   text-align: center;
 }
 
+.inactive {
+  display: none;
+}
 .facebook-chat {
   z-index: 1;
   bottom: 86px;
   right: 15px;
   box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.23);
-  display: none;
 }
 
 .active {

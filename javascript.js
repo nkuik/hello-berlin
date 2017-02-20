@@ -12,4 +12,5 @@ sr.reveal('.icons', { duration: 500}, 100);
 var popup = document.getElementById('popup');
 document.getElementById('chat-button').onclick = function() {
   popup.classList.toggle('active');
+  popup.classList.toggle('inactive');
 }
