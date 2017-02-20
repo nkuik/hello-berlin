@@ -120,7 +120,7 @@ h1 {
   margin: 0 auto;
 }
 
-.popup {
+#popup {
   display: hidden;
 }
 
@@ -129,7 +129,8 @@ h1 {
 }
 
 .facebook-chat {
-  bottom: 55px;
+  z-index: 1;
+  bottom: 86px;
   right: 15px;
   box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.23);
 }
